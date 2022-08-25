@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D99631C-A508-4B97-A020-FE80F98B9B36}</ProjectGuid>
+    <ProjectGuid>{316DF712-D159-443F-8A7C-977C0A4D6D20}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApp2.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApp2</RootNamespace>
-    <AssemblyName>WindowsApp2</AssemblyName>
+    <StartupObject>WindowsApp4.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp4</RootNamespace>
+    <AssemblyName>WindowsApp4</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WindowsApp2.xml</DocumentationFile>
+    <DocumentationFile>WindowsApp4.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WindowsApp2.xml</DocumentationFile>
+    <DocumentationFile>WindowsApp4.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
